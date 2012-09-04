@@ -1,7 +1,7 @@
 === Menubar Color Changer ===
 Contributors: olekenneth, ryanhellyer
 Donate link: http://olekenneth.com/
-Tags: theme, customize, customizer, color, change, menu, menubar
+Tags: theme, customize, customizer, color, change, menu, menubar, background
 Requires at least: 3.4
 Tested up to: 3.4.1
 Stable tag: trunk
@@ -33,6 +33,10 @@ Because it uses the feature `theme customizer` that was first embeded in WP 3.4.
 2. Appearance menu - with the customizer link
 
 == Changelog ==
+
+= 0.1.0 =
+* Upgraded to object oriented language. Also stopped using anonymous functions, since this doesn't work on older versions of PHP.
+
 
 = 0.0.1 =
 * Added basic functionality.
