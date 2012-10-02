@@ -35,6 +35,9 @@ Because it uses the feature `theme customizer` that was first embeded in WP 3.4.
 
 == Changelog ==
 
+= 1.0.1 =
+* Added meta-tag for trying to fix IE bug
+
 = 1.0 =
 * Added type-attribute to style-tag to try to fix error when IE Compatibility Mode is on.
 * Upgraded to version 1.0
