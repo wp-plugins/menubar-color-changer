@@ -3,7 +3,7 @@
 	Plugin Name: Menubar Color Changer
 	Plugin URI: http://wordpress.org/extend/plugins/menubar-color-changer
 	Description: Menubar Color Changer allows you to change the color of the black menubar in Twenty Eleven. It also adds the customizer to the appearance menu.
-	Version: 1.0.1
+	Version: 1.0.2
 	Author: Ole-Kenneth Rangnes
 	Author URI: http://olekenneth.com
 */
@@ -104,12 +104,11 @@ class menubarColorChanger {
 	function menubar_admin_head_customizer() {
 		global $submenu;
 
-		$submenu['themes.php'] = array_merge( $submenu['themes.php'], array(array(
+		$submenu['themes.php'] = @array_merge( $submenu['themes.php'], array(array(
 					'Customizer',
 					'edit_theme_options',
 					'customize.php',
 				)));
-
 		return;
 	}
 
